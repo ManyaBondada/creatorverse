@@ -1,4 +1,26 @@
 :root {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font: Verdana;
+  background-color: #a3b18a;
+}
+
+button{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font: Verdana;
+  margin: 5px;
+  background-color: 	#588157;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+}
+
+h1{
+  font-size: 50px;
+  text-shadow: 2px 2px lightgray;
+}
+
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -55,7 +77,7 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   :root {
     color: #213547;
     background-color: #ffffff;
@@ -66,4 +88,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
