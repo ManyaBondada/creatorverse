@@ -1,0 +1,10 @@
+.CreatorsDisplay{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.NoCreators{
+    margin: 100px;
+}

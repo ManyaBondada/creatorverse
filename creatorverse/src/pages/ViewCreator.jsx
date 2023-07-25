@@ -1,6 +1,6 @@
 import React from 'react';
 
-function ViewCreator() {
+const ViewCreator = () => {
 
     return (
       

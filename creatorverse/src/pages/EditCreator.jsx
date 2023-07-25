@@ -1,6 +1,6 @@
 import React from 'react';
 
-function EditCreator() {
+const EditCreator = () => {
 
     return (
       
