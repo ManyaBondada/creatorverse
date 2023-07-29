@@ -8,8 +8,6 @@ const Card = (props) => {
         <div className='CreatorCard'>
             <img className='CardImage' alt='creator image' src={props.imageURL}></img>
             <h2>{props.name}</h2>
-            {/* <p>{props.url}</p>
-            <p>{props.description}</p> */}
         </div>
       
     )
