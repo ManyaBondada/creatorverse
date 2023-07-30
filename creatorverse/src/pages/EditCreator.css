@@ -1,0 +1,21 @@
+.EditCreatorInputForm{
+    width: 600px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid;
+    border-color: #588157;
+    font-size: 16px;
+    background-color: #DAD7CD;
+}
+
+.EditCreator{
+    padding: 100px;
+}
+
+.EditCreatorForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
