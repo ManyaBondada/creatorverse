@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import { useParams } from 'react-router-dom';
+import {Link, useParams } from 'react-router-dom';
 import { supabase } from '../client';
 import './EditCreator.css';
 
@@ -65,7 +65,12 @@ const EditCreator = () => {
                     <input className='EditCreatorInputForm' type='text' id='url' name='url' value={creator.url} placeholder="Type the creator's url..." onChange={handleChange}/>
                 </div>
                 <br></br>
-                <button id='EditCreatorInputForm' onClick={updateCreator}>Submit</button>
+                <div>
+                    <button onClick={updateCreator}>Submit</button>
+                    <Link to={`/detail/${id}`}><button>Cancel</button></Link>
+                </div>
+
+
             </form>
         </div>
       

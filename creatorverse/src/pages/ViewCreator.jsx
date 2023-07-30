@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import {Link, useParams} from 'react-router-dom'
 import { supabase } from '../client';
-import {AiFillEdit} from 'react-icons/ai';
+import {AiFillEdit, AiFillYoutube} from 'react-icons/ai';
 import {BiSolidTrashAlt} from 'react-icons/bi'
 import ReactModal from 'react-modal';
 import './ViewCreator.css';
@@ -60,7 +60,7 @@ const fetchCreator = async () => {
                 <div className='ViewCreatorRight'>
                     <h2>{creator.name}</h2>
                     <p className='ViewCreatorText'>{creator.description}</p>
-                    <p className='ViewCreatorText'>{creator.url}</p>
+                    <Link to={creator.url}><AiFillYoutube color='black' size={50}/></Link>
                 </div>   
             </div>
         </div>
