@@ -36,9 +36,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-👉🏿<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-<!-- Replace this with whatever GIF tool you used! -->
+<img src='https://drive.google.com/file/d/1KKeVEjJJCKtxPlRBDkVjYdxU9_7O6mJ9/view?usp=sharing.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 GIF created with ...  LICECap!
 
 ## Notes
