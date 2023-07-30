@@ -13,7 +13,6 @@ useEffect(() => {
 }, []);
 
 const fetchCreators = async () => {
-  console.log("inside fetchCreators");
   const {data} = await supabase
   .from('creators')
   .select()

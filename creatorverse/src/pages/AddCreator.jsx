@@ -13,7 +13,6 @@ const AddCreator = () => {
                 ...prev, [name]: value
             }
         })
-        console.log(creator);
     }
 
     const createCreator = async (event) => {
@@ -35,19 +34,19 @@ const AddCreator = () => {
         <div className='AddCreator'>
             <form className='AddCreatorForm'>
                 <div>
-                    <input className='AddCreatorInputForm' type='text' id='name' name='name' value={creator.name} placeholder="Type the creator's name..." onChange={handleChange}/>
+                    <input className='AddCreatorInputForm' autoComplete='off' type='text' id='name' name='name' value={creator.name} placeholder="Type the creator's name..." onChange={handleChange}/>
                 </div>
                 <br></br>
                 <div>
-                    <input className='AddCreatorInputForm' type='text' id='description' name='description' value={creator.description} placeholder="Type the creator's description..." onChange={handleChange}/>
+                    <input className='AddCreatorInputForm' autoComplete='off' type='text' id='description' name='description' value={creator.description} placeholder="Type the creator's description..." onChange={handleChange}/>
                 </div>
                 <br></br>
                 <div>
-                    <input className='AddCreatorInputForm' type='text' id='imageURL' name='imageURL' value={creator.imageURL} placeholder="Type the creator's imageURL..." onChange={handleChange}/>
+                    <input className='AddCreatorInputForm' autoComplete='off' type='text' id='imageURL' name='imageURL' value={creator.imageURL} placeholder="Type the creator's imageURL..." onChange={handleChange}/>
                 </div>
                 <br></br>
                 <div>
-                    <input className='AddCreatorInputForm' type='text' id='url' name='url' value={creator.url} placeholder="Type the creator's url..." onChange={handleChange}/>
+                    <input className='AddCreatorInputForm' autoComplete='off' type='text' id='url' name='url' value={creator.url} placeholder="Type the creator's url..." onChange={handleChange}/>
                 </div>
                 <br></br>
                 <button id='AddCreatorSubmit' onClick={createCreator}>Submit</button>

@@ -24,7 +24,6 @@ const EditCreator = () => {
 
     const handleChange = (event) => {
         const {name, value} = event.target;
-        console.log("Name: ", name, " value: ", value);
         setCreator( (prev) => {
             return {
                 ...prev,

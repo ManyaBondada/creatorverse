@@ -17,7 +17,7 @@ const ViewCreator = () => {
 
 const fetchCreator = async () => {
     const ID = parseInt(id, 10);
-    console.log(ID);
+
     const {data} = await supabase
       .from('creators')
       .select('*')
@@ -33,7 +33,7 @@ const fetchCreator = async () => {
         await supabase
         .from('creators')
         .delete()
-        .eq('id', id); 
+        .eq('id', ID); 
     
         window.location = `/`;
     }
