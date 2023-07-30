@@ -34,9 +34,7 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented required features:
-
-<Link to=`https://drive.google.com/file/d/1KKeVEjJJCKtxPlRBDkVjYdxU9_7O6mJ9/view?usp=sharing.gif`><Link/>
+Here's a walkthrough of implemented required features: https://drive.google.com/file/d/1KKeVEjJJCKtxPlRBDkVjYdxU9_7O6mJ9/view?usp=sharing.gif
 GIF created with ...  LICECap!
 
 ## Notes
