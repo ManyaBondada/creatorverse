@@ -3,8 +3,6 @@ By: **Manya Bondada**
 
 About this web app: **This web app allows users to sift through, add, edit, delete, view, and share their favorite Youtube content creators with others.**
 
-Time spent: **13** hours
-
 ## Required Features
 
 The following functionality is implemented:
