@@ -3,7 +3,7 @@ By: **Manya Bondada**
 
 About this web app: **This web app allows users to sift through, add, edit, delete, view, and share their favorite Youtube content creators with others.**
 
-## Required Features
+## Features
 
 The following functionality is implemented:
 - [x] **A logical component structure in React is used to create the frontend of the app**
